@@ -1,0 +1,87 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    background: url(bg.jpg)no-repeat;
+    
+    height: 80vh;
+    background-position: center;
+    background-size:cover ;
+}
+form{
+    width: 380px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:5%;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px silver;
+    background-color: rgba(0,0,0,0.4);
+    overflow: hidden;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 20px;
+    border-bottom: 1px solid silver;
+
+}
+.container{
+    padding:16px;
+}
+input[type=text],input[type=password]
+{
+    width: 100%;
+    margin:8px 0px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+
+
+}
+input[type=text]:focus,input[type=password]:focus
+{
+    outline: none;
+    background-color: #d3d3d3;
+}
+#loginbtn{
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+    margin: 8px 0px;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right,#eb3349,#f45c43);
+    border: none;
+    cursor: pointer;
+    transition: 0s,0s;
+    color: #fff;
+    transition: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+    
+
+#loginbtn:hover{
+    background-image: linear-gradient(to right,#f45c43,#eb3349);
+}
+.member{
+    padding: 16px;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+#signup{
+    color:#f45c43;
+    text-decoration: none;
+    cursor: pointer;
+}
+#signup:hover{
+    color:#6c818f;
+}
